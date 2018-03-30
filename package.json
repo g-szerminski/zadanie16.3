@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "test:js": "globstar jshint src/*.js",
     "start": "webpack"
   },
   "repository": {
@@ -19,6 +20,8 @@
   },
   "homepage": "https://github.com/g-szerminski/zadanie16.3#readme",
   "devDependencies": {
+    "globstar": "^1.0.0",
+    "jshint": "^2.9.5",
     "webpack": "^3.10.0"
   }
 }
